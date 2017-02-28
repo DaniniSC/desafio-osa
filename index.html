@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+    <link rel="stylesheet" href="src/css/bootstrap.min.css">
+    <link rel="stylesheet" href="src/css/main.css">
+    <title>Quest to OSA Web</title>
+</head>
+<body>
+    <div class="container-fluid" id="app">
+    	<section class="sectionIns sections text-center"><!--Section Sodimac en nav-->
+    		<div class="textIns border-bottom">
+    			<h2 class="textbold">INS</h2>
+    		</div>
+    		<div class="imgSodimac divLogos">
+    			<img src="src/img/logo-sodimac.png" alt="Sodimac" id="selectSodimac">
+    		</div>
+    	</section>
+    	<section class="sectionMarketplace sections text-center"><!--Section Chile es Mar en nav-->
+    		<div class="textMarketplace border-bottom">
+    			<h2 class="textbold">MARKETPLACE</h2>
+    		</div>
+    		<div class="imgChileEsMar divLogos">
+    			<img src="src/img/logo-chileesmar.png" alt="Chile es Mar" id="selectChileEsMar">
+    		</div>
+    	</section>
+    	<section class="sectionIndustrialApps sections text-center"><!--Section Osa y Stornote en nav-->
+    		<div class="textIndustrialApps border-bottom">
+    			<h2 class="textbold">INDUSTRIAL APPS</h2>
+    		</div>
+    		<div class="imgOsaStornote divLogos">
+    			<img src="src/img/logo-osa.png" alt="Osa" id="selectOsa">
+    			<img src="src/img/logo-stornote.png" alt="Stornote" id="selectStornote">
+    		</div>
+    	</section>
+    	<section class="divApp totalWidth"><!--Section autocompletable y modificable con funcion click (Info Sodimac por defecto)-->
+    		<h1 class="titleApp text-center totalWidth textbold"></h1>
+    		<h3 class="subtitleApp text-center totalWidth"></h3>
+    		<div id="imgApp"></div>
+    		<div id="textApp">
+    			<p class="textApp"></p>
+    			<p class="titleResultados textbold">RESULTADOS</p>
+    			<ul class="textResultados"></ul>
+    			<p class="titleBeneficios textbold">BENEFICIOS</p>
+    			<ul class="textBeneficios"></ul>
+    		</div>
+    	</section>
+    </div>
+<script type="text/javascript" src="src/js/jquery-3.1.1.min.js"></script>
+<script type="text/javascript" src="src/js/script.js"></script>
+</body>
+</html>

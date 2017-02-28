@@ -1,0 +1,88 @@
+/*Clases de 1 sólo atributo*/
+.totalWidth {
+	width: 100%;
+}
+.border-bottom{
+	border-bottom: 1px solid #ECECEC;
+}
+.border-top{
+	border-top: 2px solid black;
+}
+.order1 {
+	order: 1;
+}
+.textbold {
+	font-weight: bold;
+}
+
+/*Clases en secciones*/
+#app {
+	background: url(../img/fondo-gris.jpg);
+	padding: 0;
+	display: flex;
+	flex-wrap: wrap;
+}
+.sections {
+	width: 33.33333%;
+	border: 1px solid #ECECEC;
+	font-family: 'Poppins', sans-serif;
+	font-weight: bold;
+}
+.divLogos {
+	background-color: white;
+	width: 100%;
+	height: 80px;
+}
+.divLogos img {
+	margin-top: 20px;
+	height: 40px;
+}
+.divApp {
+	font-family: 'Poppins', sans-serif;
+	padding-top: 40px;
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+}
+.subtitleApp{
+	margin-bottom: 30px;
+	font-style: italic;
+	font-family: 'Lato', sans-serif;
+}
+#imgApp {
+	width: 33%;
+	display: flex;
+	justify-content: center;
+}
+#imgApp img {
+	width: 250px;
+}
+#textApp{
+	width: 66%;
+	padding: 15px;
+}
+.titleResultados, .titleBeneficios {
+	font-weight: bold;
+}
+
+/*Media query para vista en mobile*/
+@media (max-width: 667px) {
+	.sections, #imgApp, #textApp {
+		width: 100%;
+	}
+	.titleApp{
+		order: 1;
+	}
+	.subtitleApp {
+		order: 2;
+	}
+	#imgApp{
+		order: 3;
+	}
+	#textApp{
+		order: 4;
+	}
+	#imgApp img {
+		width: 200px;
+	}
+}
